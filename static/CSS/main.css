@@ -1,0 +1,65 @@
+:root {
+    --primary-color: #AF9FFF;
+    --primary-color-100: #D5CCFF;
+    --primary-color-300: #7F66FF;
+
+    --secondary-color: #025834;
+    --secondary-color-600: #04C876;
+    --secondary-color-900: #01321E;
+
+    --background-color: #1B1B1B;
+    --surface-color: #252525;
+    --neutral-color: #E0E0E0;
+
+    --lobster-font: "Lobster Two", sans-serif;
+    --dm-font: "DM Sans", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--dm-font);
+    text-decoration: none;
+}
+
+html{
+    background-color: var(--background-color);
+    font-size: 16px;
+}
+
+.center-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-column{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    color: var(--secondary-color-600);
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+h2{
+    font-family: var(--lobster-font);
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    letter-spacing: 0.6rem;
+}
+p{
+    color: var(--neutral-color);
+    font-size: 1.1rem;
+}
+.text-label{
+    color: var(--background-color);
+    background-color: var(--primary-color-100);
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: .8rem 1.5rem;
+    font-size: 1.1rem;
+}

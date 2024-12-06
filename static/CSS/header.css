@@ -1,0 +1,39 @@
+header {
+    background-color: var(--surface-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*left side*/
+.logo{
+    width: 30%;
+
+}
+
+.logo img{
+    width: 15%;
+    padding: 2%;
+}
+
+/*right side*/
+.nav-menu{
+    width: 70%;
+}
+
+.nav-options{
+
+}
+
+.nav-options a{
+    color: var(--neutral-color);
+    text-transform: uppercase;
+    margin: 2%;
+    padding: 1%;
+}
+
+.nav-options a:hover{
+    border-bottom: solid 2px var(--secondary-color-600)
+}
+
+

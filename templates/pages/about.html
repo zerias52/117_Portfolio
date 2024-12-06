@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %} About Me {% endblock %}
+
+{% block content %}
+    <section class="about-section center-row">
+        <div class="about-image center-row">
+            <img src="{% static "./img/logo.png" %}" alt="">
+        </div>
+        <div class="about-desc center-column">
+            <h1>Hi! This is my name</h1>
+            <h2>Job Role Title</h2>
+            <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum debitis dicta earum excepturi facilis
+                hic incidunt laudantium magnam, maxime modi nulla odio pariatur quibusdam quidem quo repellat
+                repellendus sed veritatis.</span><span>Adipisci architecto aspernatur eveniet, laborum placeat porro
+                reprehenderit rerum sed? Amet aperiam assumenda at beatae dignissimos, et exercitationem, in iure
+                laudantium maiores nulla obcaecati perferendis sit suscipit temporibus ullam voluptates.</span><span>
+                Adipisci aperiam consequatur debitis expedita, fuga fugiat impedit ipsa iusto laboriosam nesciunt numquam
+                officiis pariatur, perspiciatis quod, quos reiciendis reprehenderit voluptates voluptatum. Dolore eum
+                illo nesciunt quasi qui quisquam vitae!</span>
+                <br><br>
+                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, aut cumque ducimus facere modi
+                mollitia nobis officiis placeat quas quis quo, sint sit. Cumque, dolorem magni. Eligendi minima
+                pariatur voluptas.</span><span>Aut dolorem in ipsa laboriosam? A aperiam at fugiat hic ipsum omnis
+                optio, qui quibusdam repudiandae ullam? Adipisci alias culpa doloremque excepturi hic laudantium
+                officia qui quo recusandae soluta? Numquam.</span></p>
+            <div class="skills-container center-column">
+                <h2>My Skills</h2>
+                <div class="skills-list center-row">
+                    <label class="text-label">Skill</label>
+                    <label class="text-label">Skill</label>
+                    <label class="text-label">Skill</label>
+                    <label class="text-label">Skill</label>
+                    <label class="text-label">Skill</label>
+                    <label class="text-label">Skill</label>
+                    <label class="text-label">Skill</label>
+                    <label class="text-label">Skill</label>
+                    <label class="text-label">Skill</label>
+                    <label class="text-label">Skill</label>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+{% endblock %}
