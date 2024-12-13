@@ -21,5 +21,6 @@ from pages import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("test_page", views.test_view, name="testing"),
+    path("contact/", views.contact_view, name="contact"),
     path("", views.about_view, name="about_url"),
 ]
