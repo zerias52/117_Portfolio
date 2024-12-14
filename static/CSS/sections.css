@@ -26,3 +26,44 @@
     gap: 1rem;
     margin-top: 2rem;
 }
+
+/* Experience Section */
+a p:nth-child(2), .experience-card p:nth-child(1){
+    font-size: 1.5rem;
+    color: var(--secondary-color-600);
+    font-weight: bolder;
+    margin: 0.5rem 0;
+}
+
+a p:nth-child(3), .experience-card p:nth-child(2){
+    font-style: italic;
+}
+
+a p:nth-child(4) .experience-card p:nth-child(4){
+    margin: 0.5rem 0;
+    font-weight: bolder;
+    font-style: italic;
+    letter-spacing: 0.5rem;
+}
+
+.experience-section {
+    margin-top: 4rem;
+}
+
+.experience-card {
+    width: 25rem;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1rem;
+    margin: 2rem 0;
+    /*border: solid var(--primary-color) 1px;*/
+}
+
+.experience-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 1rem 0;
+}
